@@ -1,0 +1,172 @@
+
+/* !!!!!!!! GENERAL !!!!!!!!!!
+___________________________________________ */
+
+html, body {
+    min-height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    margin: ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+/* !!!!!TOP BANNIERE !!!!!!! 
+__________________________________________ */
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    border: white;
+
+}
+
+.signin {
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+    border-color: #4285F4;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.gmail {
+    background-color: white;
+    color: black;
+    border-color: white;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.images {
+    background-color: white;
+    color: black;
+    border-color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    background-color: white;
+    color: black;
+    border-color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+}
+
+/* !!!!!! MILIEU LOGO !!!!!
+__________________________________________________ */
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barnav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px 8px 0 14px;
+    height: 30px;
+    width: 500px;
+    border-radius: 25px;
+    border-color: rgb(243, 239, 239);
+    border-style: groove;
+}
+
+.bouton-nav {
+    padding: 7 16px;
+    margin: 8px;
+    border: 1px solid #f8f9fa;
+    border-color: rgb(243, 238, 238);
+    color: #3c4043;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 30px;
+
+}
+
+/* !!!!!!!! BOTTOM !!!!!!!! 
+___________________________________________________*/
+
+.bot-space {
+    display: block;
+    height: 253px;
+    width: 1433px;
+}
+
+.bottomfr {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #d6d8db2f;
+}
+
+.logosize {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px #dadce0;
+    font-size: 14px;
+    color: #70757a;
+    background-color: #d6d8db2f;
+    margin-top: auto;
+    justify-content: center;
+    justify-content: space-between
+}
+
+.contact1 {
+    display: inline-block;
+    margin: 6px;
+}
+.containerfooter {
+    display: flex;
+}
